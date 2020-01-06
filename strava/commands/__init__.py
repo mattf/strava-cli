@@ -5,3 +5,4 @@ from .login import login
 from .logout import logout
 from .profile import get_profile
 from .stats import get_stats
+from .uploads import post_upload, get_upload
