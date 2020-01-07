@@ -25,7 +25,8 @@ setuptools.setup(
         'requests',
         'requests_oauthlib',
         'tabulate',
-        'dateparser'
+        'dateparser',
+        'python-magic'
     ],
     entry_points='''
         [console_scripts]

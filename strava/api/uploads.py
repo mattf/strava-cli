@@ -4,7 +4,7 @@ from ._helpers import client, url, json
 def post_uploads(filename, data_type):
     response = client.post(url(f'/uploads'),
                            files={'file': open(filename, 'rb')},
-                           data={'data_type': 'fit'})
+                           data={'data_type': data_type})
     return json(response)
 
 
